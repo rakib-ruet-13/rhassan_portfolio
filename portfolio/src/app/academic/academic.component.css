@@ -1,0 +1,25 @@
+.row-content{
+  margin: 0px;
+  padding: 0px 0px 0px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px;
+}
+.university{
+    /* The image used */
+    background-image: url("../../assets/bg/bg_edu.png");
+
+    /* Half height */
+    height: auto;
+    margin-top: 20px;
+  
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.nav-tabs li a{
+    color : black,
+}

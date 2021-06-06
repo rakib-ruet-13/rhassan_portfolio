@@ -1,0 +1,41 @@
+.jumbotron{
+  background-color: rgba(177, 92, 177,.1);
+  padding: 20px;
+}
+.navbar-brand{
+  color:black;
+}
+
+.nav-item{
+  background-color: none;
+}
+.nav-item :hover{
+  background-color: rgba(255, 99, 71, 1);
+}
+
+.nav-link{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font: bold;
+  color: black;
+}
+.nav-link:hover{
+  color:black;
+}
+.navbar-toggler{
+  color: black;
+}
+
+.objective{
+  /* The image used */
+  background-image: url("../../assets/bg/bg_1.png");
+
+  /* Half height */
+  height: auto;
+  color: rgb(77, 51, 3);
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 350px
+}

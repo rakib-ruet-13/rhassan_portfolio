@@ -1,0 +1,17 @@
+.others{
+    /* The image used */
+    background-image: url("../../assets/bg/family.png");
+
+    /* Half height */
+    height: auto;
+    margin-top: 20px;
+    text-align: left;
+    padding: 20px;
+    min-height: 400px;
+
+    color: darkred;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

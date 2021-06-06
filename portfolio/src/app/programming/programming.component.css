@@ -1,0 +1,16 @@
+.skill{
+    /* The image used */
+    background-image: url("../../assets/bg/bg_dev.png");
+
+    /* Half height */
+    height: auto;
+    margin-top: 20px;
+    text-align: left;
+    padding: 20px;
+
+    color: white;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

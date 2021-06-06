@@ -1,0 +1,43 @@
+.work{
+    /* The image used */
+    background-image: url("../../assets/bg/exp.png");
+
+    /* Half height */
+    height: auto;
+    margin-top: 20px;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card:hover img {
+    transform: scale(.3, .3);
+    transition-duration: 500ms;
+    transition-timing-function: ease-out;
+    opacity: 0.7;
+  }
+  
+  .card img {
+    transform: scale(.2, .2);
+    transition-duration: 500ms;
+    transition-timing-function: ease-out;
+  }
+  
+  .card-img-wrapper {
+    overflow: hidden;
+    position: relative;
+  }
+  .member-icons {
+    position: absolute;
+    bottom: -30%;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    opacity: 0;
+  }
+  .card-img-wrapper:hover .member-icons {
+    bottom: 0;
+    opacity: 1;
+  }

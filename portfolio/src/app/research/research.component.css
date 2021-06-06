@@ -1,0 +1,42 @@
+.skill{
+    /* The image used */
+    background-image: url("../../assets/bg/bg_research.png");
+
+    /* Half height */
+    height: auto;
+    margin-top: 20px;
+    text-align: left;
+    padding: 20px;
+    min-height: 400px;
+
+    color: white;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+a:link {
+    color: rgb(231, 101, 101);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(231, 140, 140);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: rgb(238, 156, 156);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: rgb(240, 128, 128);
+    background-color: transparent;
+    text-decoration: underline;
+  }
