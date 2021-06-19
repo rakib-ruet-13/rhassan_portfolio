@@ -23,6 +23,7 @@
     "@kolkov/ngx-gallery": "^1.2.3",
     "@schematics/angular": "^9.1.0",
     "bootstrap": "^5.0.1",
+    "bootswatch": "^5.0.1",
     "express": "^4.17.1",
     "font-awesome": "^4.7.0",
     "jquery": "^3.6.0",

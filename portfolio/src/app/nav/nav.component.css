@@ -1,16 +1,13 @@
-.jumbotron{
-  background-color: rgba(177, 92, 177,.1);
-  padding: 20px;
-}
+
 .navbar-brand{
-  color:black;
+  color:rgb(255, 255, 255);
 }
 
 .nav-item{
   background-color: none;
 }
 .nav-item :hover{
-  background-color: rgba(255, 99, 71, 1);
+  background-color: rgb(119, 95, 91);
 }
 
 .nav-link{
